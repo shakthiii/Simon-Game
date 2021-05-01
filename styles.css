@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 155px;
+  width: 155px;
+  border: 7px solid black;
+  border-radius: 13%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  bottom: 4%;
+  left: 35%;
+  
+}
+.rules{
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+ font-size: 1.5rem;
+ text-align: left;
+ margin: 5%;
+ position: relative;
+}
+#heading{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.6rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+a{
+  display: block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  list-style: none;
+  background-color:  #e9c46a;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 1px;
+  color: black;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 4%;
+  left: 3%;
+  width: 20%;
+}
+
+@media only screen and (min-width: 768px){
+  .btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  position: relative;
+
+}
+#title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+footer{
+  position: absolute;
+  bottom: 2%;
+  font-size: 1.3rem;
+  left: 78%;
+
+}
+a{
+  width: 10%;
+}
+
+}
