@@ -164,10 +164,12 @@ footer{
 }
 .start{
   position: absolute;
-  bottom: 4%;
-  width: 20%;
+  bottom: 24%;
+  width: 15%;
+  height: 3%;
+  font-size: 2rem;
   height: 12%;
-  left: 40%;
+  left: 3%;
 }
 }
 
